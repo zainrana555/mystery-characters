@@ -1,0 +1,965 @@
+@font-face {
+	font-family: 'FuturaBold';
+	src: url('../fonts/futurabold.woff') format('woff'),    
+	url('../fonts/futurabold.ttf') format('truetype')
+	url('../fonts/futuraMdbt.woff') format('woff');
+}
+@font-face {
+	font-family: 'FuturaBtBold';
+	src:url('../fonts/futuraMdbt.woff') format('woff');
+}
+@font-face {
+	font-family: 'Futura';
+	src:url('../fonts/Futura.woff') format('woff');
+}
+@font-face {
+	font-family: 'Futuramdbold';
+	src:url('../fonts/futuraMdbt.woff') format('woff');;
+}
+button:focus{
+	box-shadow: none !important;
+}
+/*login page*/
+
+.logo-detail-main{
+	position: relative;
+	height: 100vh;
+	height: 80vh;
+}
+.login-logo{
+	margin-top: 84px;
+	margin-left: 50px;
+}
+.login-logo img{
+	max-width: 140px;
+	width: 100%;
+}
+.started-text {
+	text-align: center;
+	padding: 0px 50px;
+	position: absolute;
+	bottom: 0px;
+}
+.started-text h3{
+	font-size: 36px;
+	color: #FFFFFF;
+	font-family: 'FuturaBold';
+	margin-bottom: 17px;
+}
+.started-text p{
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-bottom: 0px;
+	font-family: 'FuturaBtBold';
+	margin-bottom: 0px !important;
+}
+.main-structure-login-sec{
+	display: flex;
+	width: 100%;
+}
+.login-text-sec{
+	background-image: url(../img/loginback.png);
+	background-size: cover;
+	max-width: 30%;
+	width: 100%;
+	height: 100vh;
+	background-color: rgb(0,0,0,0.6);
+	background-blend-mode: overlay;
+}
+.login-main-form{
+	background-color:#0A0E2A;
+	max-width: 70%;
+	width: 100%;
+}
+.form-group-main{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+.form-group-main h1{
+	color: #FFFFFF;
+	font-size: 36px;
+	font-family: 'FuturaBold';
+	font-weight: 700;
+}
+.form-group-main p{
+	color: #FFFFFF;
+	font-size: 24px;
+	margin-bottom: 0px !important;
+	font-family: 'FuturaBtBold';
+	font-weight: 400;
+}
+.form-group-main form{
+	margin-top: 57px;
+}
+.form-group-main form input{ 
+	background-color: #171636;
+	border:1px solid #171636;
+	border-radius: 16px;
+	color: #FFFFFF !important;
+	font-family: 'FuturaBtBold';
+	padding-left: 55px !important;
+}
+.form-group-main form input:focus{
+	background-color: #171636;
+	border:1px solid #171636;
+	box-shadow: none;
+}
+.form-group-main form label{
+	color: #FFFFFF;
+	font-family: 'FuturaBtBold';
+	padding-left: 60px;
+}
+.email-input{
+	position: relative;
+}
+.email-input img{
+	max-width: 20px;
+	width: 100%;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+.password-input{
+	position: relative;
+}
+.password-input img{
+	max-width: 20px;
+	width: 100%;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+.forgot-text{
+	text-align: right;
+	margin-top: 12px;
+}
+.forgot-text {
+	margin-bottom: 44px;
+}
+.forgot-text a{
+	color: #FFFFFF;
+	font-size: 24px;
+	font-size: 18px;
+	text-decoration: none !important;
+	font-family: 'FuturaBtBold';
+}
+.form-group-main button{
+	width: 100%;
+	border-radius: 15px;
+	height: 50px;
+	font-size: 23px;
+	font-family: 'FuturaBtBold';
+	margin-bottom: 20px;
+}
+.signup-text h3{
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: 'FuturaBtBold';
+}
+.signup-text h3 a{
+	color: #F74B42;
+	text-decoration: none ;
+}
+
+/*login page*
+
+
+/*invitation page*/
+/*.header-place*/
+.header-place{
+	background-color: #0A0E2A;
+	position: relative;
+}
+.header-text{
+	text-align: center;
+	margin-top: 56px;
+	margin-bottom: 43px;
+}
+.header-text h3{
+	font-size: 25px;
+	color: #FFFFFF;
+	font-family: 'Futura';
+	margin-bottom: 8px;	
+}
+.header-text h1{
+	font-size: 36px;
+	color: #FFFFFF;
+	font-family: 'FuturaBold';
+	margin-bottom: 0px;
+}
+.logo-float-design{
+	position: absolute;
+	top: 50px;
+}
+.confir-invitation-logo img{
+	max-width: 150px;
+	width: 100%;
+}
+
+/*option-list*/
+.option-list{
+	margin-bottom: 65px;
+}
+.option-list ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.option-list ul li{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	width: fit-content;
+	background-color: #171636;
+	padding: 14px 17px;
+	margin: 0px 35px;
+	font-size: 18px;
+	font-family: 'Futura';
+	border-radius: 12px;
+}
+.option-list ul li img{
+	max-width: 30px;
+	width: 100%;
+	margin-right: 21px;
+}
+.link-design{
+	color: #FFAE55 !important;
+}
+.link-design a{
+	color:  #FFAE55 ;
+	text-decoration: none;
+}
+
+/*vedio-sec*/
+.vedio-information{
+	padding-bottom: 93px;
+}
+.vedio-sec img{
+	width: 100%;
+}
+.vedio-file-detail-main{
+	background-color: #141833;
+	padding: 25px 29px;
+}
+.vedio-file-detail-main h2{
+	font-size: 20px;
+	color: #FFFFFF;
+	font-family: 'Futura';
+	margin-bottom: 25px;
+}
+.vedio-file-data{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 25px;
+}
+.text-data{
+	display: flex;
+	align-items: center;
+}
+.text-data-img{
+	height: 40px;
+	width: 40px;
+	background-color: #F8B72A14;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 19px;
+}
+.text-data-img-play{
+	height: 40px;
+	width: 40px;
+	background-color: #F9636314;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 19px;
+}
+.text-data-img-play img{
+	max-width: 15px;
+	width: 100%;
+}
+.text-data-img img{
+	max-width: 15px;
+	width: 100%;
+}
+.text-data h3{
+	font-size: 16px;
+	color: #FFFFFF;
+	font-family: 'FuturaBtBold';
+	margin-bottom: 9px;
+}
+.text-data p{
+	font-size: 13px;
+	color: #FFFFFF61;
+	font-family: 'FuturaBtBold';
+	margin-bottom: 0px;
+}
+.data-result a{
+	color: #25AE88;
+	font-size: 16px;
+	font-family: 'Futura';
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+.data-result img{
+	max-width: 15px;
+	width: 100%;
+	margin-right: 10px;
+}
+.vedio-file-detail-main button{
+	max-width: 336px;
+	width: 100%;
+	border-radius: 15px;
+	font-size: 21px;
+	font-family: 'Futura';
+	color: #FFFFFF;
+	margin-top: 20px;
+}
+.download-file-button{
+	text-align: center;
+}
+.progresbar{
+	width: 144px;
+	background-color: #30344E;
+	height: 5px;
+}
+.set-percentage{
+	background-color: #F74B42;
+	height: 5px;
+	width: 130px;
+}
+
+/*invitation-tabs*/
+.invitation-tabs{
+	background-color: #141833;
+	padding: 40px 0px;
+}
+.invitation-buttons{
+	text-align: center;
+}
+.invitation-buttons h2{
+	font-size: 22px;
+	color: #FFFFFF;
+	font-family: 'Futura';
+	margin-bottom: 24px;
+}
+.invitation-buttons a{
+	margin: 0px 12px;
+}
+.yes-accept{
+	border: 1px solid #25AE88;
+	font-size: 18px;
+	font-family: 'Futura';
+	padding: 10px 40px;
+	color: #FFFFFF;
+	border-radius: 15px;
+	text-decoration: none;
+	transition: 0.4s;
+}
+.yes-accept:hover{
+	color: #FFFFFF; 
+	background: #25AE88;
+}
+.may-be{
+	border: 1px solid #FFAE55;
+	font-size: 18px;
+	font-family: 'Futura';
+	padding: 10px 40px;
+	color: #FFAE55;
+	border-radius: 15px;
+	text-decoration: none;
+	transition: 0.4s;
+}
+.may-be:hover{
+	color: #FFFFFF;
+	background-color: #FFAE55; 
+}
+.decline{
+	border: 1px solid #F74B42;
+	font-size: 18px;
+	font-family: 'Futura';
+	padding: 10px 40px;
+	color: #F74B42;
+	border-radius: 15px;
+	text-decoration: none;
+	transition: 0.4s;
+}
+.decline:hover{
+	color: #FFFFFF;
+	background-color: #F74B42;
+}
+
+
+/*confirmation structure*/
+.confirmation-structure{
+	background-color: #0A0E2A;
+}
+/*confirmation-header*/
+.confirmation-header{
+	padding-top: 40px;
+}
+.confirmation-logo img{
+	max-width: 115px;
+	width: 100%;
+}
+.header-heading{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+.header-heading h1{
+	font-size: 32px;
+	color: #FFFFFF;
+	font-family: 'FuturaBold';
+	margin: 0px;
+}
+.header-nav{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	justify-content: flex-end;
+}
+.header-nav img{
+	max-width: 30px;
+	width: 100%;
+}
+
+/*confirmation-note*/
+.confimation-note-detail-main{
+	background-color: #242453CF;
+	padding: 15px 30px;
+	border-radius: 17px;
+	margin-top: 64px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 46px;
+}
+.confimation-note-detail-main img{
+	height: 30px;
+	max-width: 30px;
+	width: 100%;
+	margin-right: 20px;
+}
+.confimation-note-detail h3{
+	font-size: 20px;
+	color: #FFFFFF;
+	font-family: 'FuturaBtBold';
+	margin-bottom: 8px;
+}
+.confimation-note-detail p{
+	font-size: 16px;
+	font-family: 'FuturaBtBold';
+	color: #FFFFFF99;
+	margin-bottom: 0px;
+}
+
+/*confirmation-table-sec*/
+
+.confirmation-table-parent{
+	margin-bottom: 40px;
+}
+.confirmation-table-parent table{
+	border-color: #A2A2AF29 !important;
+}
+.confirmation-table-parent table thead{
+	background-color: #171636;
+}
+.confirmation-table-parent table tr th{
+	font-size: 20px;
+	color: #FFFFFF;
+	font-family: 'FuturaBtBold';
+}
+.confirmation-table-parent table tr td{
+	font-size: 18px;
+	color: #9D9FAA;
+	font-family: 'FuturaBtBold';
+}
+.confirmation-table-parent h3{
+	font-size: 22px;
+	color: #FFFFFF;
+	font-family: 'FuturaBold';
+	margin-bottom: 23px;
+}
+.table-edit-button{
+	height: 30px !important;
+	background-color: #F74B42 !important;
+	padding: 3px 10px !important;
+	margin-left: 50px !important;
+	border-radius: 10px !important;
+	border:1px solid  #F74B42 !important;
+}
+.table-edit-button img{
+	max-width: 10px;
+	width: 100%;
+	margin-right: 7px;
+	position: relative;
+	bottom: 3px;
+}
+.center-design{
+	text-align: center;
+}
+.confirm-play-button{
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+.confirm-play-button button{
+	max-width: 346px;
+	width: 100%;
+	background-color: #F74B42 !important;
+	border-radius: 15px;
+	border:1px solid  #F74B42 !important;
+}
+
+/*confirmation-table-parent*/
+
+/*game-invite-structure*/
+.game-invite-structure{
+	background-color: #0A0E2A;
+	height: 100vh;
+}
+.create-game-parent{
+	text-align: center;
+	margin-top: 100px;
+}
+.create-game-parent img{
+	max-width: 70px;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.create-game-parent h2{
+	font-size: 25px;
+	color: #FFFFFF;
+	font-family: 'FuturaBold';
+	margin-bottom: 8px;
+}
+.create-game-parent p{
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: 'FuturaBtBold';
+	margin-bottom: 52px;
+}
+.create-game-parent button{
+	background-color: #F74B42 !important;
+	border: 1px solid #F74B42 !important;
+	font-size: 18px;
+	color: #FFFFFF;
+	border-radius: 9px !important;
+	font-family: 'FuturaBtBold';
+}
+
+/*game-invite-structure*/
+
+/*settigs page*/
+.setting-profile{
+	padding: 50px 0px;
+}
+.set-profile-img{
+	text-align: center;
+	position: relative;
+}
+.set-profile-img img{
+	max-width: 100%;
+	width: 100%;
+}
+.edit-profile-img{
+	height: 50px;
+	width: 50px;
+	background-color: #F74B42;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	right: -12px;
+	bottom: -13px;
+}
+.edit-profile-img img{
+	max-width: 20px;
+	width: 100%;
+	margin-bottom: 0px !important;
+}
+.profile-img-heading{
+	text-align: center;
+}
+.profile-img-heading h3{
+	font-size: 22px;
+	color: #FFFFFF;
+	font-family: 'Futuramdbold';
+	margin: 0px;
+	margin-top: 20px;
+}
+.setting-form form{
+	max-width: 60%;
+	width: 100%;
+	border-left: 1px solid #A2A2AF4A;
+	padding-left: 70px;
+	margin-left: 70px;
+}
+.setting-form label{
+	font-size: 18px;
+	color: #AEAFB9;
+	font-family: 'Futuramdbold';
+}
+.setting-form input{
+	background-color: #171636;
+	border: 1px solid #171636 !important;
+	height: 50px;
+	border-radius: 16px;
+	color: #FFFFFF !important;
+	font-size: 18px;
+	padding-left: 60px;
+}
+.setting-form input:focus{
+	background-color: #171636 !important;
+	border: 1px solid #171636 !important;
+	box-shadow: none !important;
+}
+.setting-form input::placeholder{
+	color:  #FFFFFF !important;
+}
+.save-change-button{
+	text-align: right;
+}
+.save-change-button button{
+	background-color: #F74B42;
+	border-radius: 10px !important;
+	font-size: 18px;
+	color:#FFFFFF;
+	font-family: 'Futuramdbold';
+	max-width: 219px;
+	width: 100%;
+}
+.full-name-place {
+	position: relative;
+}
+.full-name-place img{
+	position: absolute;
+    top: 47px;
+    max-width: 25px;
+    width: 100%;
+    left: 13px;
+}
+/*settigs page*/
+
+
+
+/*send-invitation*/
+.invitation-things{
+	margin-top: 60px;
+}
+.send-invitation-para{
+	flex-direction: column;
+	text-align: center;
+}
+.send-invitation-para p{
+	color: #999BA7;
+	font-size: 22px;
+	font-family: 'Futuramdbold';
+}
+.select-player-dropdown {
+
+}
+.select-player-dropdown h3{
+	font-size: 20px;
+	color: #FFFFFF99;
+	font-family: 'Futura';
+	margin-bottom: 10px;
+}
+.select-player-dropdown select{
+	background-color: #171636;
+	border:1px solid #171636;
+	border-radius: 12px;
+	color: white;
+	height: 50px;
+	font-family: 'Futuramdbold';
+}
+.select-player-dropdown select:focus{
+	background-color: #171636 !important;
+	border:1px solid #171636 !important;
+	box-shadow: none !important;
+}
+.game-play-heading{
+	margin-bottom: 10px;
+}
+.game-play-heading h3{
+	font-size: 20px;
+	color: #FFFFFF99;
+	font-family: 'Futura';
+	margin-bottom: 10px;
+}
+.game-date{
+	background-color: #171636;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 12px;
+	height: 50px;
+}
+.game-date img{
+	max-width: 30px;
+	width: 100%;
+	margin-right: 10px;
+}
+.game-date h4{
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: 'Futuramdbold';
+	margin: 0px !important;
+}
+.select-player-dropdown input{
+	height: 50px;
+	background-color: #171636;
+	border:1px solid #171636;
+	font-size: 18px;
+	color: #FFFFFF;
+	border-radius: 12px;
+	width: 100%;
+	padding-left: 20px;
+	outline: none !important;
+}
+.select-player-dropdown input:focus{
+	box-shadow: none;
+	background-color: #171636 !important;
+	border:1px solid #171636 !important;
+}
+.select-player-dropdown input:focus-visible{
+	background-color: #171636 !important;
+	border:1px solid #171636 !important;
+}
+.select-player-dropdown input::placeholder{
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.invitation-things-pad-design{
+	margin-top: 0px !important;
+}
+.row-pad-design{
+	margin-top: 29px;
+}
+.send-invitation-button{
+	text-align: center;
+	margin-bottom: 80px;
+}
+.send-invitation-button button{
+	background-color: #F74B42 !important;
+	border: 1px solid #F74B42 !important;
+	font-size: 18px;
+	color: #FFFFFF;
+	border-radius: 9px !important;
+	font-family: 'FuturaBtBold';
+	max-width: 340px;
+	width: 100%;
+}
+/*send-invitation*/
+
+
+/*purchase-sec*/
+.game-invites-main-page{
+	height: 100% !important;
+}
+.purchase-sec{
+	margin-top: 70px;
+}
+.purchase-text-main{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.purchase-data h2{
+	font-size: 22px;
+	color: #FFFFFF;
+	font-family: 'FuturaBold';
+	margin-bottom: 10px;
+}
+.purchase-data p{
+	font-size: 18px;
+	color: #9D9FAA;
+	font-family: 'FuturaBtBold';
+}
+.purchase-text-main button{
+	background-color: #F74B42;
+	font-size: 18px;
+	color: #FFFFFF;
+	border-radius: 10px;
+	font-family: 'FuturaBtBold';
+	max-width: 218px;
+	width: 100%;
+}
+.email-edit-button{
+	background-color: transparent !important;
+	border: 1px solid #F74B42 !important;
+	color: #F74B42 !important; 
+}
+.generate-number{
+	padding-bottom: 100px;
+}
+.generate-heading h2{
+	font-size: 22px;
+    color: #FFFFFF;
+    font-family: 'FuturaBold';
+    margin-bottom: 23px;
+}
+.generate-text-button{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1E1B2D;
+	padding: 60px 30px;
+}
+.generate-text-button h1{
+	font-size: 50px;
+	color: #FFAE55;
+	font-family: 'FuturaBold';
+	margin-bottom: 0px !important;
+}
+.generate-text-button button{
+	background-color: #F74B42 !important;
+	border: 1px solid #F74B42 !important;
+	font-size: 18px;
+	color: #FFFFFF;
+	border-radius: 9px !important;
+	font-family: 'FuturaBtBold';
+	max-width: 210px;
+	width: 100%;
+}
+/*blocks-section*/
+.blocks-section{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.block-data{
+	border-right: 1px solid #3D4056;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.block-data h3{
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: 'FuturaBtBold';
+	margin-bottom: 20px;
+}
+.block-img-background{
+	height: 40px;
+	width: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #151D40;
+	border-radius: 50%;
+	margin-bottom: 15px;
+}
+.block-data img{
+	max-width: 20px;
+	width: 100%;
+}
+.block-data h2{
+	font-size: 40px;
+	color: #FFFFFF;
+	font-family: 'FuturaBtBold';
+}
+.block-data h2 small{
+	font-size: 15px;
+	color: #9496A2;
+}
+.tick-bg{
+	background: #25AE8824 !important;
+}
+.invite-table-pad-design{
+	margin-bottom: 0px !important;
+}
+.cross-bg{
+	background-color: #221833 !important;
+}
+.purplecross{
+	background-color: #151D40 !important;
+}
+.playmood-sec{
+	margin-top: 60px;
+}
+.playmood-heading h2{
+	font-size: 20px;
+	color: #FFFFFF;
+	font-family: 'FuturaBtBold';
+	margin-bottom: 15px;
+}
+.playmood-heading ul{
+	padding-left: 0px !important;
+}
+.playmood-heading ul li{
+	font-size: 18px;
+	color: #9D9FAA;
+	font-family: 'Futura';
+	list-style: none;
+	display: inline-block;
+	margin-right:20px;
+}
+.playmood-heading ul li img{
+	max-width: 20px;
+	width: 100%;
+	margin-right: 10px;
+}
+.playmood-parent {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.playmood-parent button{
+	background-color: transparent;
+	border: 1px solid #F74B42;
+	color: #F74B42;
+	font-size: 18px;
+	border-radius: 10px;
+	font-family: 'FuturaBtBold';
+}
+.playmood-parent button img{
+	max-width: 15px;
+	width: 100%;
+}
+.accepted-color{
+	color: #25AE88 !important;
+}
+.declined-color{
+	color: #F96363 !important;
+}
+.not-res-color{
+	color: #FFAE55 !important;
+}
+.last-block-border-design{
+	border-right: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
