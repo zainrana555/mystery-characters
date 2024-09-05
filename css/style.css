@@ -960,7 +960,12 @@ button:focus{
 .last-block-border-design{
 	border-right: none !important;
 }
-
+.mobile-edit-button-design button{
+	display: none;
+}
+.hide-om-mobile{
+	display: none;
+}
 
 
 

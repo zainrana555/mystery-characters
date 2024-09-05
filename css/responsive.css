@@ -291,6 +291,39 @@
     .menu-footer ul li a{
         font-size: 17px;
     }
+    .purchase-text-main {
+        display: block;
+        padding: 0px 20px;
+    }
+    .generate-text-button{
+        display: block;
+    }
+    .generate-text-button button{
+        margin-top: 20px;
+    }
+    .generate-text-button h1{
+        font-size: 35px;
+    }
+    .game-invite-notes{
+        margin-top: 25px;
+    }
+    .block-data{
+        margin-bottom: 25px;
+    }
+    .playmood-heading ul li{
+        margin-bottom: 20px;
+    }
+    .playmood-parent{
+        padding: 0px 20px;
+    }
+    .mobile-edit-button-design{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobile-edit-button-design button{
+        display: block;
+    }
 }
 
 
