@@ -324,6 +324,9 @@
     .mobile-edit-button-design button{
         display: block;
     }
+    .block-border-design{
+        border: none !important;
+    }
 }
 
 
