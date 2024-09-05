@@ -20,7 +20,12 @@ button:focus{
 	box-shadow: none !important;
 }
 /*login page*/
-
+.mobile-nav{
+	display: none !important;
+}
+.mobile-logo{
+	display: none;
+}
 .logo-detail-main{
 	position: relative;
 	height: 100vh;
@@ -77,6 +82,10 @@ button:focus{
 	flex-direction: column;
 	justify-content: center;
 	height: 100vh;
+}
+.form-group-main button{
+	background-color: #F74B42 !important;
+	border:1px solid #F74B42 !important;
 }
 .form-group-main h1{
 	color: #FFFFFF;
@@ -149,7 +158,7 @@ button:focus{
 .form-group-main button{
 	width: 100%;
 	border-radius: 15px;
-	height: 50px;
+/*	height: 50px;*/
 	font-size: 23px;
 	font-family: 'FuturaBtBold';
 	margin-bottom: 20px;
@@ -326,6 +335,10 @@ button:focus{
 .download-file-button{
 	text-align: center;
 }
+.download-file-button button{
+	background-color: #F74B42 !important;
+	border:1px solid #F74B42 !important;
+}
 .progresbar{
 	width: 144px;
 	background-color: #30344E;
@@ -431,6 +444,7 @@ button:focus{
 .header-nav img{
 	max-width: 30px;
 	width: 100%;
+	cursor: pointer;
 }
 
 /*confirmation-note*/
@@ -463,7 +477,9 @@ button:focus{
 }
 
 /*confirmation-table-sec*/
-
+.mobile-table-heading-design{
+	display: none;
+}
 .confirmation-table-parent{
 	margin-bottom: 40px;
 }
@@ -598,6 +614,9 @@ button:focus{
 	margin: 0px;
 	margin-top: 20px;
 }
+.setting-form-mobile{
+	display: none;
+}
 .setting-form form{
 	max-width: 60%;
 	width: 100%;
@@ -654,6 +673,9 @@ button:focus{
 
 
 /*send-invitation*/
+.mobile-page-heading{
+	display: none;
+}
 .invitation-things{
 	margin-top: 60px;
 }
@@ -938,6 +960,7 @@ button:focus{
 .last-block-border-design{
 	border-right: none !important;
 }
+
 
 
 
